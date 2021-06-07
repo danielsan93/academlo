@@ -1,30 +1,114 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pprtafolio de Daniel</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <!-- Div principal -->
-    <div style="background-image: url(http://1.bp.blogspot.com/-dA_E7zHypHE/Tas9XhMNEYI/AAAAAAAADEw/wkEMoxeUpiI/s1600/VISTA+ESPACIO.jpg); width: 100%">
-        <!-- PRIMERA Sección -->
-        <div>
-            <!-- rectángulo azul -->
-            <div>
-                <!-- Hola, soy Daniel -->
-                <div>
-                    <h1>"Hola! Soy Daniel Gómez</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam velit a ut ducimus ullam quo, rerum soluta provident laboriosam eveniet quis dolorum sit at odio deleniti labore dolore culpa ex.</p>
-                </div>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="">Inicio</a>
+                <a href="#redesSociales">Redes sociales</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="contenidoHeader">
+                <h1 class="tituloHeader">Daniel Gómez</h1>
             </div>
         </div>
+    </header>
+    <main>
+        <section class="quienes">
+           <div class="contenedor">
+               <h3 class="quienesTitulo">¿Quién soy?</h3>
+               <p class="quienesParrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, quia recusandae dolor cum, eveniet voluptate itaque
+                voluptatibus iure perspiciatis sequi quisquam inventore. Necessitatibus quasi voluptatem iusto, ea suscipit blanditiis
+                ab architecto, eveniet autem dolore fugiat laborum optio dicta in. Eligendi harum repellendus amet provident placeat quas
+                distinctio neque dolores magni!</p>
+            </div> 
 
-    </div>
+        </section>
 
-    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia atque aliquid quibusdam nobis, quas cum similique impedit illum sit labore, non ut error deserunt animi consectetur voluptatem ex qui minus!</h1>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, maxime? Vero officiis adipisci, hic eos deleniti neque accusantium modi quo obcaecati ex ab repellendus unde voluptas. Quod praesentium quisquam deserunt?</h1>
+        <section class="portafolio" id="portafolio">
+            <div class="contenedor">
+                <div class="portafolioTextos">
+                    <h2>Algunos trabajos</h2>
+                    <p>Contáctame sin temor al éxito</p>
+                </div>
+                <section class="galeria">
+                    <div class="fotos">
+                        <img src="img/1.jpg" alt="">
+                    </div>
+                     <div class="fotos">
+                        <img src="img/2.jpg" alt="">
+                    </div>
+                    <div class="fotos">
+                        <img src="img/3.jpg" alt="">
+                    </div>
+                    <div class="fotos">
+                        <img src="img/4.jpg" alt="">
+                    </div>
+                    <div class="fotos">
+                        <img src="img/5.jpg" alt="">
+                    </div>
+                    <div class="fotos">
+                        <img src="img/6.jpg" alt="">
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="redesSociales" id="redesSociales">
+            <div class="contenedor">
+                <div class="contenidoCajas">
+                    <div class="redes">
+                        <img src="img/whatsapp.png" alt="" class="imagenRedes">
+                        <div class="contenidoRedes">
+                            <h3 class="tituloRedes">Whatsapp</h3>
+                            <p class="parrafoRedes">+51123456789</p>
+                        </div>
+                    </div>
+                    <div class="redes">
+                            <img src="img/facebook.png" alt="" class="imagenRedes">
+                            <div class="contenidoRedes">
+                                <h3 class="tituloRedes">Facebook</h3>
+                                <p class="parrafoRedes">Aquí pondría mi fb C:</p>
+                            </div>
+                    </div>
+                    <div class="redes">
+                            <img src="img/instagram.png" alt="" class="imagenRedes">
+                            <div class="contenidoRedes">
+                                <h3 class="tituloRedes">Instagram</h3>
+                                <p class="parrafoRedes">Aquí pondría mi IG C:</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            
+        
+    </main>
+    <footer>
+        <section class="contacto" id="contacto">
+            <div class="contenedor">
+                <div class="footerTextos">
+                    <h2>Contacta conmnigo</h2>
+                </div>
+                <form action="" class="formulario" method="POST">
+                    <input type="text" placeholder="Nombre" id="nombre" name="nombre" required value="">
+                    <input type="email" placeholder="Correo" id="correo" name="correo" required value="" class="email">
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje:"></textarea>
+                   <div class="derecha">
+                    <input class="boton derecha" type="submit" value="Contactar" name="submmit">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
