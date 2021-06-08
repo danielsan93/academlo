@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -41,7 +42,7 @@ header .menu a:hover{
 }
 header .menu a{
     font-size:18px;
-    font-family: 'lato';
+
     font-weight: 300;
     display: inline-block;
     padding:10px 0;
@@ -134,7 +135,7 @@ main .portafolio{
 main .portafolio .portafolioTextos{
     text-align: center;
     margin-bottom: 60px;
-    color:#2d3950;
+    color:#ffffff;
     font-size: 20px;
 }
 
@@ -209,7 +210,6 @@ footer .contacto  textarea{
     border-radius: 5px;
     color:rgb(0, 0, 0);
     border: 2px solid rgba(204, 204, 204, 0.383);
-    font-family: 'lato';
     font-weight: 300;
 }
 
