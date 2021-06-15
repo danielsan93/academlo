@@ -1,0 +1,34 @@
+.container , .containerCards{
+    width: 90%;
+    margin: auto;
+}
+
+.section_input{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.input{
+    flex-grow: 1;
+    margin: 5px;
+}
+.button{
+    margin: 5px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+.cards-text{
+    display: flex;
+    justify-content: space-around;    
+    flex-grow: 10;
+}
+.cards-button{
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-around;
+}
