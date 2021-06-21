@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: #292928;
+    
+}
+
+body{
+   background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/53/Vaporwave-4K-Wallpapers.jpg");
+   background-size: cover;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+}
+
+
+.btns{
+    background-color: rgb(49, 102, 84);
+    color: whitesmoke;
+    border: 0px;    
+    transition: 0.5s;
+}
+.btns:hover{
+    transform: scale(1.05);
+    
+}
+
+img {
+    width: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 48px;
+}
+
+h1 {
+    font-size: 4.8em;
+}
+
+h2{
+    font-size: 3.2em;
+}
+
+
+h3 {
+    font-size: 2.4em;
+}
+
+h4, h5{
+    font-size: 1.6em;
+}
+
+p{
+    font-size: 1.6em;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    
+}
